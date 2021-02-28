@@ -4,22 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <!-- seo meta tags -->
+    <meta name="description" content="for unilabi internship ">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="keti gogadze">
+     <!-- facebook  meta tags -->
+    <meta property="og:url"                content="https://ketigogadze.github.io/for-unilabi/" />
+    <meta property="og:type"               content="web-development internship" />
+    <meta property="og:title"              content="internship unilabi" />
+    <meta property="og:description"        content="this is for unilabi" />
+    <meta property="og:image"              content="images/image1.png" />
+     
+ 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
+ 
+    <link rel="shortcut icon" href="images/avatar.svg" type="image/png"> 
     <title>second page</title>
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html"> Logo </a>
         <nav class="navbar">
-            <ul class="nav-list">
-                <li class="li-item-1"> HOME </li>
-                <li class="li-item"> DISCOVERY </li>
-                <li class="li-item"> PHOTOS </li>
-                <li class="li-item"> CONTACT </li>
-                <li class="li-item"> <img src="images/login-icon.svg"> </li>
-            </ul>
+            <div class="burger-menu"> <img alt="burger" src="images/burger.svg"> </div> 
+            <div class="burger-menu-nav-list"> 
+                <div class="logo-box"> <a class="logo" href="index.html"> Logo </a> </div>
+                <div class="menu-first-part">
+                   <ul class="nav-list">
+                       <li class="li-item-1"> <a href="#"> <img class="menu-img" src="images/home.svg" alt="home"> HOME </a>  </li>
+                       <li class="li-item"> <a href="#"> <img class="menu-img" src="images/discover.svg" alt="discovery"> DISCOVERY </a>  </li>
+                       <li class="li-item"> <a href="#"> <img class="menu-img" src="images/photos.svg" alt="photos">PHOTOS </a>  </li>
+                       <li class="li-item"> <a href="#"> <img class="menu-img" src="images/mail.svg" alt="contact"> CONTACT </a>  </li>
+                       <li class="li-item"> <img class="menu-img-prof" src="images/login-icon.svg" alt="profile-img"> PROFILE </li>
+                   </ul>
+                </div>
+                <div class="menu-second-part">
+                    <div class="row-two"> 
+                        <ul>
+                            <li class="footer-li"> About </li>
+                            <li class="footer-li"> Help </li>
+                            <li class="footer-li"> Terms </li>
+                            <li class="footer-li"> Guidelines </li>
+                       </ul>
+                    </div>
+                    <div class="row-two"> 
+                        <ul>
+                            <li class="footer-li"> Testimonials </li>
+                            <li class="footer-li"> Advertise </li>
+                            <li class="footer-li"> Integrations </li>
+                            <li class="footer-li"> careers </li>
+                       </ul>
+                    </div>
+                    <div class="socials-wrapper">
+                        <a class="soc-media" href="#"> <img class="social-icon" alt="socials" src="images/instagram.svg"> </a>
+                        <a class="soc-media" href="#"> <img class="social-icon" alt="socials" src="images/twitter.svg"> </a>
+                        <a class="soc-media" href="#"> <img class="social-icon" alt="socials" src="images/facebook.svg"> </a>
+                        <a class="soc-media" href="#"> <img class="social-icon" alt="socials" src="images/web.svg"> </a>
+                    </div>
+                </div>   
+            </div>
+            <div class="logo-box"> <a class="logo" href="index.html"> Logo </a> </div>
+            <div class="navbar-menu">
+                <ul class="nav-list">
+                   <li class="li-item-1"> <a href="#">HOME </a>  </li>
+                   <li class="li-item"> <a href="#"> DISCOVERY </a>  </li>
+                   <li class="li-item"> <a href="#"> PHOTOS </a>  </li>
+                   <li class="li-item"> <a href="#"> CONTACT </a>  </li>
+                   <li class="li-item"> <img src="images/login-icon.svg"> </li>
+               </ul>
+            </div>
+            <div class="profile"> <a href="#"> <img alt="login" src="images/login-icon.svg"> </a> </div>
         </nav>
     </header>
     <div class="click-container"> 
@@ -147,7 +203,7 @@
               <a class="soc-media" href="#"> <img class="social-icon" alt="socials" src="images/web.svg"> </a>
           </div>
         </div>  
-    </footer>
-    
+    </footer> 
+    <script src="app.js"></script>
 </body>
 </html>
